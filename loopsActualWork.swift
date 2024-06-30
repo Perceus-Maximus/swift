@@ -37,7 +37,7 @@ for age in 1...29 {
 }
 
 // Prints:
-age
+/* age
 Are you 1?
 age
 Are you 2?
@@ -94,7 +94,7 @@ Are you 27?
 age
 Are you 28?
 age
-Are you 29?
+Are you 29? */
 
 
 ///////////////STRIDE FUNCTION
@@ -107,7 +107,7 @@ for num in stride(from: 0, to: 6, by: 2) {
 
 // prints by 2 aka 2 & 4 & 6 but since it ends at 6 it only prints 2 & 4 
 
-for num in stride(from: 0, to: 1,000, by: 100) {
+for num in stride(from: 0, to: 1000, by: 100) {
   print(num)
 }
 
